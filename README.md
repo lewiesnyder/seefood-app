@@ -2,6 +2,8 @@
 
 A Python implementation of the "SeeFood" app from HBO's Silicon Valley series. This app classifies images as either "Hotdog" or "Not Hotdog" using Ollama for inference.
 
+## This project was create using [Cursor AI](https://www.cursor.com/)
+
 ## Requirements
 
 - Python 3.11+
@@ -23,15 +25,16 @@ OLLAMA_BASE_URL=http://localhost:11434
 
 3. Run the application:
 
-Start the FastAPI server:
-```bash
-poetry run uvicorn app.main:app --reload
-```
-
 Start the Streamlit UI:
 ```bash
 poetry run streamlit run app/main.py
 ```
+
+Optionally, start the FastAPI server:
+```bash
+poetry run uvicorn app.main:app --reload
+```
+The api isn't used by the app. The docs can be viewed at `http://localhost:8000/docs`.
 
 ## Project Structure
 
