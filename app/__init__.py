@@ -1,0 +1,3 @@
+"""
+SeeFood application package
+""" 

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "seefood"
+version = "0.1.0"
+description = ""
+authors = ["lewiesnyder <80827300+lewiesnyder@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+streamlit = "^1.29.0"
+python-multipart = "^0.0.6"
+pillow = "^10.1.0"
+python-dotenv = "^1.0.0"
+ollama = "^0.4.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

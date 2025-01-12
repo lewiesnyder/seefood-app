@@ -1,0 +1,23 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# FastAPI and Streamlit cache
+*.db
+*.sqlite3
+*.log
+*.pkl
+
+# IDE and editor files
+*.idea/
+*.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env

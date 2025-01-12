@@ -1,0 +1,17 @@
+Your are an expert softward engineer. 
+Your are building a python implemention of the "see food" app from the HBO series "Silicon Valley" that classifies images as being "Hotdog" or "Not Hotdog".
+You will use python ^3.11 and poetry for dependency management.
+You will use the FastAPI framework for the app server, Ollama for the model inference and streamlit for the UI.
+
+The structure of the project is as follows:
+- app/
+    - main.py
+    - models/
+        - hotdog_classifier.py
+    - utils/
+        - image_utils.py
+    - tests/
+        - test_hotdog_classifier.py
+    - .env
+    - pyproject.toml
+    - README.md
