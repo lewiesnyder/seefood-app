@@ -27,18 +27,26 @@ OLLAMA_BASE_URL=http://localhost:11434
 
 Start the Streamlit UI:
 ```bash
+poetry run python run_ui.py
+```
+or 
+```bash
 poetry run streamlit run app/main.py
 ```
 
 Optionally, start the FastAPI server:
+```bash
+poetry run python run_api.py
+```
+or 
 ```bash
 poetry run uvicorn app.main:app --reload
 ```
 The api isn't used by the app. The docs can be viewed at `http://localhost:8000/docs`.
 
 ## Project Structure
-
-- `app/main.py`: Main FastAPI application
+- `app/main.py`: Main FastAPI and Streamit application
 - `app/models/hotdog_classifier.py`: Image classification model
 - `app/utils/image_utils.py`: Image processing utilities
 - `app/tests/`: Test files 
+- `images`: Some sample images for testing
