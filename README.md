@@ -8,7 +8,7 @@ A Python implementation of the "SeeFood" app from HBO's Silicon Valley series. T
 
 - Python 3.11+
 - Poetry for dependency management
-- Ollama installed locally
+- [Ollama](https://ollama.com/) runningwith [llama3.2-vision](https://ollama.com/library/llama3.2-vision) model
 
 ## Setup
 
